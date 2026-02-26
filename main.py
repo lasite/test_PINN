@@ -100,8 +100,8 @@ def main() -> None:
         torch.save(model.state_dict(), path)
         print(f"Model saved to {path}")
 
-    # Visualise
-    print("Generating visualisations …")
+    # Visualize
+    print("Generating visualizations …")
     plot_all(model, domain, history, output_dir=args.output_dir)
     print("Done.")
 

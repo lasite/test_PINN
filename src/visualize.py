@@ -1,4 +1,4 @@
-"""Visualisation utilities for the cylinder-flow PINN.
+"""Visualization utilities for the cylinder-flow PINN.
 
 Provides functions to plot velocity magnitude, vorticity, pressure,
 streamlines, and training loss curves.  All heavy computation is done
@@ -210,12 +210,12 @@ def plot_all(
     t_values: list[float] | None = None,
     output_dir: str | Path = "outputs",
 ):
-    """Generate all visualisation plots and save them to *output_dir*.
+    """Generate all visualization plots and save them to *output_dir*.
 
     Parameters
     ----------
     t_values : list[float] | None
-        Time instants to visualise.  Defaults to five equally-spaced
+        Time instants to visualize.  Defaults to five equally-spaced
         values across the time range.
     """
     out = Path(output_dir)

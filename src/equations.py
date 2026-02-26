@@ -61,7 +61,7 @@ def navier_stokes_residuals(
     residual_x, residual_y : torch.Tensor
         Momentum equation residuals in x and y directions.
     u, v, p : torch.Tensor
-        Velocity components and pressure (for logging / visualisation).
+        Velocity components and pressure (for logging / visualization).
     """
     u, v, p, _ = compute_velocities(model, x, y, t)
     nu = 1.0 / Re

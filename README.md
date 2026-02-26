@@ -1,7 +1,7 @@
 # PINN for 2D Cylinder Flow — Kármán Vortex Street
 
 Physics-Informed Neural Network (PINN) for simulating 2D incompressible
-flow around a circular cylinder and visualising the resulting
+flow around a circular cylinder and visualizing the resulting
 [Kármán vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street).
 
 ## Method
@@ -29,7 +29,7 @@ loss function enforces:
 ## Project Structure
 
 ```
-├── main.py              # Entry point (training + visualisation)
+├── main.py              # Entry point (training + visualization)
 ├── requirements.txt     # Python dependencies
 ├── src/
 │   ├── __init__.py
@@ -40,6 +40,7 @@ loss function enforces:
 │   └── visualize.py     # Plotting (velocity, vorticity, pressure)
 └── tests/
     └── test_model.py    # Unit tests
+```
 ```
 
 ## Quick Start
@@ -88,6 +89,6 @@ python -m pytest tests/ -v
 ## Requirements
 
 * Python ≥ 3.10
-* PyTorch ≥ 2.0
+* PyTorch ≥ 2.6
 * NumPy ≥ 1.24
 * Matplotlib ≥ 3.7

@@ -146,7 +146,7 @@ class CylinderDomain:
         return x, y, t
 
     # ------------------------------------------------------------------
-    # visualisation grid
+    # visualization grid
     # ------------------------------------------------------------------
 
     def mesh_grid(self, nx: int = 200, ny: int = 100, t_val: float = 0.0):
